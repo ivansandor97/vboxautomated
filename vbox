@@ -88,7 +88,7 @@ vboxmanage modifyvm $vmname --vrde on --vrdeport $vrdeport --vrdeauthtype null
 # Create and attach HDD and SATA controller
 vboxmanage createhd --filename $hddfile --size $hddsize
 vboxmanage storagectl $vmname --name "SATA controller" --add sata
-vboxmanage storageattach $vmname --storagectl "SATA controller" --port 0 --device 0 --type hdd --medium $hddfile
+vboxmanage storageattach $vmname --storagectl "SATA controller" --port 0 --device 0 --type hdd --medium "$hddfile"
  
 # Create IDE controller and attach DVD
 vboxmanage storagectl $vmname --name "IDE controller" --add ide
