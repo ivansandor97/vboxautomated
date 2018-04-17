@@ -92,7 +92,7 @@ vboxmanage storageattach $vmname --storagectl "SATA controller" --port 0 --devic
  
 # Create IDE controller and attach DVD
 vboxmanage storagectl $vmname --name "IDE controller" --add ide
-vboxmanage storageattach $vmname --storagectl "IDE controller"  --port 0 --device 0 --type dvddrive --medium $isofile
+vboxmanage storageattach $vmname --storagectl "IDE controller"  --port 0 --device 0 --type dvddrive --medium $ubuntuserver.iso
  
 #######################################################################
 ### End of script                                                   ###
