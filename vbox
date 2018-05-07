@@ -25,7 +25,7 @@
  
 ## The name of your VM
  
-vmname="UbuntuServer2"
+vmname="ubuntu"
  
  
 ## VM operating system and ISO file
@@ -38,7 +38,7 @@ isofile="/home/sis/ubuntuserver.iso"
  
 ## Memory and video memory in MB
  
-memory="4096"
+memory="2048"
 vram="128"
  
  
