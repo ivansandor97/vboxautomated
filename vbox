@@ -33,18 +33,18 @@ vmname="ubuntu"
 ## Use the "ID:" as your ostype. Remember that everything is case-sensitive in linux.
  
 ostype="Ubuntu_64"
-isofile="/home/sis/ubuntuserver.iso"
+isofile="/home/user/ubuntuserver.iso"
  
  
 ## Memory and video memory in MB
  
-memory="2048"
+memory="4096"
 vram="128"
  
  
 ## Hard disk size in MB
  
-hddsize="10000"
+hddsize="20000"
  
  
 ## Vrde port range (RDP)
